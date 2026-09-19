@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: 'Lora', Georgia, serif;
+  background-color: #f5f0e8;
+  color: #2a2a2a;
+  line-height: 1.7;
+}
+
+.site-nav {
+  background-color: #000;
+  padding: 12px 20px;
+  text-align: center;
+}
+
+.site-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Lora', serif;
+  font-weight: 500;
+  margin: 0 12px;
+}
+
+.site-nav a:hover {
+  color: #c9a86a;
+}
+
+.hero {
+  position: relative;
+  height: 500px;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.15), rgba(0,0,0,0.7)),
+                     url("hero.jpg");
+  background-size: cover;
+  background-position: center 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-overlay h1 {
+  font-family: 'Bodoni Moda', serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  letter-spacing: 4px;
+  color: #fff;
+  margin: 0;
+  text-shadow: 0 4px 16px rgba(0,0,0,0.6);
+}
+
+.hero-overlay h3 {
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #e8dcc4;
+  margin-top: 14px;
+  font-size: 1.1rem;
+}
+
+.content {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 25px;
+}
+
+.content h2 {
+  font-family: 'Bodoni Moda', serif;
+  font-weight: 700;
+  color: #1a1a1a;
+  border-bottom: 2px solid #c9a86a;
+  padding-bottom: 8px;
+}
+
+.content p {
+  font-size: 1.05rem;
+}
+
+.portrait {
+  display: block;
+  max-width: 100%;
+  width: 300px;
+  margin: 25px auto;
+  border-radius: 6px;
+  border: 5px solid #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+ol, ul {
+  padding-left: 24px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+a {
+  color: #7a5c2e;
+}
+
+a:hover {
+  color: #c9a86a;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 12px 28px;
+  background-color: #c9a86a;
+  color: #1a1a1a;
+  font-family: 'Bodoni Moda', serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #a8874f;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1a1a1a;
+  color: #999;
+  font-size: 0.9rem;
+}

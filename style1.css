@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #f4f6f8;
+  color: #222;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  color: #1b3a57;
+}
+
+#intro {
+  margin-bottom: 30px;
+}
+
+.site-header {
+  background-color: #1b3a57;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.site-header h1 {
+  color: #fff;
+  margin: 0 0 10px 0;
+}
+
+.navbar ul {
+  list-style: none;
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 12px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 6px 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: #c3f3e3;
+  color: #1b3a57;
+}
+
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #d8dfe5;
+  border-radius: 8px;
+}
+
+section {
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+section:last-child {
+  border-bottom: none;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #e3fdf9;
+  border: 2px solid #1b3a57;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.profile-photo {
+  max-width: 160px;
+  border-radius: 50%;
+  border: 3px solid rgb(3, 5, 5);
+}
+
+.card-info h2 {
+  margin-top: 0;
+}
+
+ol, ul {
+  padding-left: 25px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+a {
+  color: #1b3a57;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #96fff3;
+  text-decoration: underline;
+}
+
+/* Footer */
+.site-footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #1b3a57;
+  color: #fff;
+  margin-top: 20px;
+}
