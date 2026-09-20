@@ -56,7 +56,6 @@ body {
   margin-top: 0;
 }
 
-/* ===== TABLE ===== */
 .grades-table {
   width: 100%;
   border-collapse: collapse;
@@ -84,7 +83,7 @@ body {
   font-weight: bold;
 }
 
-/* ===== FORM ===== */
+
 .feedback-form {
   display: flex;
   flex-direction: column;
