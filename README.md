@@ -1,11 +1,10 @@
-HTML & CSS Basics — Assignment 1
+HTML & CSS Basics — Assignment #1
 
 A multi-page website built for the Frontend course (Assignment #1: HTML & CSS Basics), completed individually.
 
 Author: Mumina Mukazhan Group: SE-2530 University: Astana IT University
 
-🔗 Repository: https://github.com/muminamukazhan/webtechassignment1 🔗 
-  Live site: https://muminamukazhan.github.io/webtechassignment1/
+🔗 Repository: https://github.com/muminamukazhan/webtechassignment1 🔗 Live site: https://muminamukazhan.github.io/webtechassignment1/
 
 Description
 
