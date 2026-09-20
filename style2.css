@@ -16,12 +16,12 @@ body {
 }
 
 .logo {
-  display: flex;
-  align-items: center;
+  display: block;
 }
 
 .dot {
   display: inline-block;
+  vertical-align: middle;
   width: 14px;
   height: 14px;
   border-radius: 50%;
@@ -33,6 +33,8 @@ body {
 .dot-blue   { background-color: #40bcf4; }
 
 .logo-text {
+  display: inline-block;
+  vertical-align: middle;
   font-family: 'Playfair Display', serif;
   font-weight: 900;
   font-size: 1.6rem;
@@ -70,12 +72,13 @@ body {
                      url("IMG_7368\ —\ копия.jpg");
   background-size: cover;
   background-position: center;
-  display: flex;
-  align-items: flex-end;
 }
 
 .hero-text {
-  padding: 0 40px 30px 40px;
+  position: absolute;
+  bottom: 30px;
+  left: 40px;
+  right: 40px;
 }
 
 .hero-text p {
